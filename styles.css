@@ -264,6 +264,13 @@ footer{
     color: #ffff;
     text-align: center;
 }
+.last-name{
+    display: none;
+
+}
+.last-p{
+    display: none;
+}
 @media (min-width:744px) {
     .menu{
         display: none;
@@ -317,6 +324,12 @@ footer{
     .img1{
         height: 499px;
     }
+    .container1-div2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
     
     
 }
@@ -331,7 +344,7 @@ footer{
         font-weight: 900;
         font-size: 56px;
         line-height: 60px;
-        width: 70%;
+        width: 80%;
     }
     .container-p2{
         width: 70%;
@@ -398,15 +411,130 @@ footer{
         background-image: url("./images/cta\(3\).png");
     }
     .footer-div1{
-        
+
         gap:44px;
     }
     .footer-div2{
         gap: 180px;
     }
+   
 
    
 
 
+}
+@media (min-width:1440px) {
+    header{
+        padding-left: 32px;
+        padding-right: 24px;
+        gap: 27%;
+        
+    }
+    ul{
+        gap: 24px;
+    }
+    .section1-container-div1{
+        padding-left: 10%;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+       
+    }
+    .bottom-div{
+        margin-top: 20px;
+        gap:20px ;
+    }
+    .container-p1{
+        text-align: start;
+    }
+    .container-p2{
+        text-align: start;
+    }
+    .container-p3{
+        width: 40%;
+        line-height: 20px;
+        text-align: start;
+
+    }
+    .container1-div2{
+        align-items: flex-start;
+        gap: 24px;
+        width: 50%;
+    }
+    .img1{
+        height: 428px;
+        width: 490px;
+    }
+    .section2-container-div{
+        justify-content: flex-end;
+    }
+    .container2-p2{
+        width: 78%;
+    }
+    .lastsection-container{
+        gap: 133px;
+        align-items: center;
+       padding-top: 96px;
+       padding-bottom: 96px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .img2{
+        width: 503px;
+        height: 428px;
+        
+    }
+    .lsection-div{
+        
+        flex-direction: column;
+        gap: 24px;
+    }
+    .lsection-p1{
+        width: 80%;
+    }
+    .lsection-p2{
+        width: 70%;
+        margin-bottom: 8px;
+    }
+    .lsection-div1{
+        gap: 8px;
+    }
+    .img-div{
+        height: 566px;
+        background-image: url("./images/cta\(4\).png");
+    }
+    .last-p{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffff;
+        opacity: 40%;
+        width: 55%;
+
+
+    }
+    .footer-div1{
+        width: 100%;
+        flex-direction: row;
+    }
+    .footer-div2{
+        width: 80%;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .last-name{
+        display: inline-block;
+        text-align: start;
+        width: auto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffff;
+        margin-bottom: 8px;
+    }
+
+    
     
 }
