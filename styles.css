@@ -12,12 +12,23 @@ header{
     display: flex;
     flex-direction: row;
     margin-top: 23px;
-    gap: 70%;
+    gap: 60%;
     align-items: center;
 
 }
+nav{
+    display: none;
+}
+ul{
+    display: none;
+}
+.header-bottom{
+ display: none;
+}
+
 .title-div{
-    
+    margin-left: 5%;
+    margin-right: 5%;
     display: block;
     position: relative;
 }
@@ -36,6 +47,11 @@ header{
         left:100%;
         bottom: 55%;
     
+}
+.menu{
+    width: 25px;
+    height: 25px;
+
 }
 .section1-container-div1{
     margin-top:23px ;
@@ -247,4 +263,60 @@ footer{
     line-height: 20px;
     color: #ffff;
     text-align: center;
+}
+@media (min-width:744px) {
+    .menu{
+        display: none;
+    }
+    header{
+        gap:11%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    nav{
+        display: block;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 22px;
+
+    }
+    .link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19.36px;
+        text-align: right;
+        color: #000000;
+    }
+    .header-bottom{
+        display: block;
+    }
+    .img-div{
+        background-image: url("./images/cta\ \(2).png");
+    
+    }
+    footer{
+        align-items: flex-start;
+    }
+    .footer-div1{
+        align-items: flex-start;
+    }
+    .footer-div2{
+        align-items: flex-start;
+        gap: 60px;
+        margin-left: 18px;
+    }
+    .block{
+        align-items: flex-start;
+    }
+    .name{
+        text-align: start;
+        width: auto;
+    }
+    .img1{
+        height: 499px;
+    }
+    
+    
 }
