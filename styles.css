@@ -320,3 +320,93 @@ footer{
     
     
 }
+@media (min-width: 1024px) {
+    header{
+        gap: 15%;
+    }
+    ul{
+        gap:44px
+    }
+    .container-p1{
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 60px;
+        width: 70%;
+    }
+    .container-p2{
+        width: 70%;
+    }
+    .bottom-div{
+        flex-direction: row;
+        gap: 20px;
+
+    }
+    .img1{
+        height: 450px;
+    }
+    .container2-div{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 28%;
+    }
+    .section2-container-div{
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+     .container2-p2{
+        text-align: start;
+        width: 100%;
+        height: 120px;
+    } 
+    .img2{
+        height: 550px;
+    }
+    .lsection-p1{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: start;
+        
+        width: 60%;
+       
+    }
+    .lsection-p2{
+        width: 100%;
+        text-align:start;
+    }
+    .lsection-div1{
+        justify-content: flex-start;
+        
+        
+    }
+    .div1-p{
+        text-align: start;
+    }
+    .lsection-div{
+        gap: 129px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .img-div{
+        background-image: url("./images/cta\(3\).png");
+    }
+    .footer-div1{
+        
+        gap:44px;
+    }
+    .footer-div2{
+        gap: 180px;
+    }
+
+   
+
+
+    
+}
